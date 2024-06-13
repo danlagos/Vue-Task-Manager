@@ -1,5 +1,5 @@
 # Task Manager App Overview
-This app allows users to add, delete, and categorize tasks. Users can also mark tasks as completed or important, and filter tasks based on their status or category.
+This Vue.js application allows users to add, delete, and categorize tasks, showcasing a comprehensive understanding of Vue's fundamental and interactive features. Users can mark tasks as completed or important, and filter tasks based on their status or category. Designed to demonstrate the dynamic capabilities of Vue, this app utilizes reactive data properties, component-based architecture, and advanced features such as computed properties and two-way data binding with `v-model`. It serves as a practical example of applying Vue.js concepts in a real-world project, perfect for inclusion in a developer's portfolio on GitHub.
 
 ## App Structure
 - **Main Component:** Holds the state of all tasks and includes methods for adding, deleting, and updating tasks.
