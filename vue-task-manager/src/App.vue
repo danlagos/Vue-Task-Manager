@@ -7,8 +7,9 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <div class="layout">
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/">Home</RouterLink> |
+        <RouterLink to="/app-view">App View</RouterLink> |
+        <RouterLink to="/about">About</RouterLink> |
       </nav>
     </div>
   </header>
@@ -17,4 +18,14 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
+.layout {
+  display: flex;
+  justify-content: center; /* Center horizontally within the layout div */
+  width: 100%; /* Take full width to allow centering */
+}
+
+nav {
+  text-align: center; /* Centers text links within the nav element */
+  padding: 10px; /* Provides some spacing */
+}
 </style>
